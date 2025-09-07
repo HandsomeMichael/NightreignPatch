@@ -1,0 +1,64 @@
+Configs: {
+	NRPClientConfig: {
+		DisplayName: Nightreign Revive Addon Client Config
+		Headers.Visual: Visual
+
+		// DrawPlayerHead: {
+		// 	Label: Draw Player Head
+		// 	Tooltip: ""
+		// }
+		
+		DrawCursorToPlayer: {
+			Label: Show Downed Indicator
+			Tooltip:
+				'''
+				Show a cursor pointing to a downed friends
+				Will also show it last used item
+				'''
+		}
+
+		HideCursorWhenClose: {
+			Label: Hide Downed Indicator When Close
+			Tooltip: Hide the cursor pointing to a downed friends when close to it
+		}
+
+		CursorDistance: {
+			Label: Downed Indicator Distance
+			Tooltip: The distance between cursor and player
+		}
+
+		CursorSize: {
+			Label: Downed Indicator Size
+			Tooltip: The size of the downed cursor
+		}
+	}
+
+	NRPConfig: {
+		DisplayName: Nightreign Revive Addon Server Config
+		Headers.Revive: Revive Header
+
+		AutoRespawn: {
+			Label: Auto Respawn
+			Tooltip:
+				'''
+				Player will automatically get revived after a designated time
+				Please disable regular respawn timer before enabling this feature
+				[ Default to false ]
+				'''
+		}
+
+		AutoRespawnTime: {
+			Label: Auto Respawn Time
+			Tooltip:
+				'''
+				The amount of second required to automatically respawn
+				[ Default to 20 seconds ]
+				'''
+		}
+
+		AffectLifeRegen: {
+			Label: Affect Life Regen
+			Tooltip: ""
+		}
+	}
+}

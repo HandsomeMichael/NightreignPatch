@@ -1,0 +1,9 @@
+displayName = Nightreign Revives Addon
+author = Lasthue or Neko the catnt
+version = 0.1
+modReferences = NightreignRevives
+sortAfter = NightreignRevives, CalamityMod
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, Old\*, *csbak

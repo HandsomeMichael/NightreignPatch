@@ -1,0 +1,8 @@
+Night reign revives addon
+
+Patch the mod to have more revive factor stuff, have config to disable most stuff
+
+- Some accesories vanilla or calamity grants bonuses for revives
+- Automatically revives after configured max time
+- Patched UI to only stick on death body
+- indicator of downed player
